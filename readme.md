@@ -1,4 +1,4 @@
 ### Aqui o link do site :
 
-https://jornada-pyton.netlify.app/
+https://jornada-python.netlify.app/
 

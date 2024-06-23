@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  list-style-type: none;
+}
+body {
+  background: #181e25;
+  height: 100%;
+}
+.top {
+  height: 700px;
+  padding: 30px;
+  background: #181e25;
+}
+.top .interface {
+  max-width: 1000px;
+  padding: 50px 0;
+  display: flex;
+  margin: 0 auto;
+}
+.top .interface .esquerda {
+  max-width: 450px;
+}
+.top .interface .esquerda img {
+  width: 35px;
+  padding: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.top .interface .esquerda h1 {
+  font-size: 39.8px;
+  text-align: left;
+  color: #fff;
+}
+.top .interface .esquerda span {
+  color: #00a8dd;
+}
+.top .interface .esquerda .data {
+  font-size: 19.2px;
+  margin-bottom: 20px;
+  color: #00a8dd;
+}
+.top .interface .esquerda p {
+  color: #fff;
+  text-align: justify;
+  line-height: 23px;
+  max-width: 390px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.top .interface .esquerda ul {
+  width: 425px;
+  display: flex;
+  gap: 10px;
+}
+.top .interface .esquerda ul .feature {
+  display: flex;
+  align-items: center;
+}
+.top .interface .esquerda ul .feature img {
+  width: 20px;
+  margin-right: 5px;
+  color: #00a8dd;
+  background: none;
+  align-items: center;
+}
+.top .interface .esquerda ul .feature p {
+  font-size: 13.3px;
+  margin-top: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.top .interface .esquerda button {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  background: #09c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+  box-shadow: 5px 0px 4px #09c;
+}
+.top .interface .esquerda button:hover{
+  box-shadow: none;
+  transition: .5s;
+}
+.top .interface .esquerda .btn img {
+  background: none;
+  width: 25px;
+}
+.top .interface .esquerda .btn span {
+  color: #fff;
+  font-size: 19.2px;
+  align-items: center;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.top .interface .direita {
+  max-width: 550px;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.aula {
+  width: 48%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  background: #2b323c;
+  border-radius: 15px;
+}
+.aula h2 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.aula p {
+  font-size: 13.3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00a8dd;
+}
+.aula ul li img {
+  width: 12px;
+}
+.aula ul {
+  margin-top: 7px;
+}
+.aula ul li span {
+  color: #fff;
+  font-size: 13.3px;
+}
+.tratamento-dados {
+  margin-top: 0;
+  background: #10151b;
+  padding: 20px 0;
+}
+.text-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.tratamento-dados .text-container p {
+  color: #a5a5a5;
+  text-align: center;
+  font-size: 13.3px;
+  text-align: center;
+}
+#inscricao {
+  background: #181e25;
+}
+#inscricao .container-inscricao {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+#inscricao .container-inscricao h2 {
+  text-align: center;
+  font-size: 39.8px;
+  font-weight: 400;
+  color: #fff;
+}
+#inscricao .container-inscricao h2 span {
+  font-weight: 700;
+}
+#inscricao .passos {
+  display: flex;
+  justify-content: space-between;
+  background: #2b323c;
+  margin-top: 40px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.passos .passo h3 {
+  font-size: 19.2px;
+  color: #fff;
+}
+.passos .passo span {
+  font-size: 19.2px;
+  font-weight: 700;
+  color: #00a8dd;
+}
+.passos .passo p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+#sobre {
+  max-width: 1000px;
+  height: 600px;
+  gap: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.about-left {
+  max-width: 450px;
+  background: #2b323c;
+  border-radius: 15px;
+  border: 1px solid #2b323c;
+}
+.about-left h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 23.2px;
+  padding: 20px;
+}
+.about-left .info-lira {
+  display: flex;
+  margin: 10px auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: #1e252d;
+  padding: 10px;
+}
+.about-left .info-lira img {
+  width: 70px;
+}
+.about-left .info-lira ul span {
+  color: #09c;
+  font-size: 23px;
+  font-weight: 500;
+}
+.about-left .info-lira ul p {
+  color: #fff;
+  font-size: 19.2px;
+}
+.about-left > p {
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 19.2px;
+}
+.about-rigth {
+  display: block;
+  width: 500px;
+  margin-top: 25px;
+}
+.about-rigth .abaut {
+  display: block;
+  border: 1px solid #2b323c;
+  padding: 40px;
+  border-radius: 15px;
+  background: #2b323c;
+  margin-bottom: 30px;
+}
+.about-rigth .abaut .titulo-abaut {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.about-rigth .abaut .titulo-abaut h3 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 500;
+  max-width: 400px;
+}
+.about-rigth .abaut .titulo-abaut img {
+  width: 40px;
+  background: none;
+}
+.about-rigth .abaut p {
+  color: #fff;
+  font-size: 19.2px;
+  margin-bottom: 20px;
+}
+.about-rigth .abaut span {
+  color: #09c;
+}
+.about-rigth .abaut ul li {
+  color: #fff;
+  font-size: 19.2px;
+}
+.about-rigth .area-botao {
+  background: linear-gradient(90deg, #034, #09c);
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+}
+.about-rigth .area-botao h4 {
+  max-width: 200px;
+  color: #fff;
+  font-size: 23px;
+}
+.about-rigth .area-botao button {
+  width: 250px;
+  height: 40px;
+  background: #2b323c;
+  color: #fff;
+  font-size: 23px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 0px 2px #000;
+  transition: .5s;
+}
+.about-rigth .area-botao button:hover {
+  box-shadow: none;
+  transition: .5s;
+}
+footer {
+  height: 100px;
+  background: #2b323c;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 85px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19.2px;
+  margin-right: 10px;
+}
+footer .logo-footer{
+  cursor: pointer;
+}
+footer>a:hover{
+  text-decoration: underline;
+}
+footer img {
+  width: 50px;
+  background: none;
+  align-items: center;
+}
